@@ -41,9 +41,12 @@ The script will generate the following:
 
 You can expect the script to produce visualizations and display summary statistics in the console.
 
-![Histogram of Grades](histogram.png)
+<img width="955" alt="Screenshot 2023-11-14 at 12 51 47" src="https://github.com/nogibjj/mini-proj33-rc/assets/123079408/7a9b1eb7-0d21-4dd3-a3b2-60ff5718cad5">
 
-![Box Plot of Grades](boxplot.png)
+
+<img width="900" alt="Screenshot 2023-11-14 at 12 51 54" src="https://github.com/nogibjj/mini-proj33-rc/assets/123079408/3e5dc531-5e6c-42c2-ae40-d9e3d0cc855f">
+
+
 
 
 ```
