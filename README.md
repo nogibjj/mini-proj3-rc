@@ -1,25 +1,34 @@
-[![CI](https://github.com/Jason-Guo1999/IDS706-Python-Template/actions/workflows/main.yml/badge.svg)](https://github.com/Jason-Guo1999/IDS706-Python-Template/actions/workflows/main.yml)
+# Week 3: Polars Descriptive Statistics Script
 
+This is a Python GitHub Template Repository that creates Polars Descriptive Statistics Script:
+- A .devcontainer configuration for a Python environment
+- A Makefile with commands for setup, testing, and linting
+- GitHub Actions for CI/CD
+- A requirements.txt for project dependencies
+- A README.md with setup and usage instructions
+- Python script using Polars for descriptive statistics
+- Read a dataset (CSV or Excel)
+- Generate summary statistics (mean, median, standard deviation)
+- Create at least one data visualization
 
-# IDS 706 Data Engineering Python GitHub Template
+## Prerequisites
 
-This repository contains a Python GitHub template designed specifically for IDS 706 Data Engineering projects. It includes several key components structured to streamline project setup and development.
+- Python 3.9 or higher installed
+- polars
+- matplotlib
+- pytest
+- pylint
+- seaborn
 
-## Features
+## Report
 
-- `Makefile`: Contains commands and tools for building and managing the project.
-- `requirements.txt`: Lists all dependencies necessary for the project.
-- `.devcontainer`: 
-  - `Dockerfile`: Specifies Docker configurations.
-  - `devcontainer.json`: Integrates with Visual Studio Code extension for enhanced development environment.
-- `.gitignore`: Configures files and directories to be excluded from Git version control.
-- `GitHub Actions`: 
-  - `workflows`: Enables automated Continuous Integration and Continuous Deployment (CI/CD) for the project.
+For this polars descriptive statistics script, I used the polars, matplotlib, and seaborn libraries in python to read a “grade.xlsx” and calculated the mean, median, and standard deviation.
+Then, I generated three plots as following.
 
-## Usage
+- Mean: 72.10714285714286
+- Median: 75.5
+- Standard Deviation: 19.87938492647459
 
-Refer to individual files for specific usage instructions and configurations.
-
-## Contributing
-
-Contributions to improve the template are welcome. Please adhere to the project's contribution guidelines.
+![Distribution Plot](data/distribution%20plot.png)
+![Box Plot](data/box%20plot.png)
+![KDE Plot](data/KDE%20plot.png)
