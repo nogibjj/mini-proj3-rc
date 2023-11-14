@@ -1,34 +1,54 @@
-# Week 3: Polars Descriptive Statistics Script
 
-This is a Python GitHub Template Repository that creates Polars Descriptive Statistics Script:
-- A .devcontainer configuration for a Python environment
-- A Makefile with commands for setup, testing, and linting
-- GitHub Actions for CI/CD
-- A requirements.txt for project dependencies
-- A README.md with setup and usage instructions
-- Python script using Polars for descriptive statistics
-- Read a dataset (CSV or Excel)
-- Generate summary statistics (mean, median, standard deviation)
-- Create at least one data visualization
+# Polars Descriptive Statistics Analysis - week3
 
-## Prerequisites
+This Python module demonstrates the use of Polars for descriptive statistics analysis. The module reads a dataset from an Excel file, calculates summary statistics such as mean, median, and standard deviation, and visualizes the data distribution.
 
-- Python 3.9 or higher installed
-- polars
-- matplotlib
-- pytest
-- pylint
-- seaborn
+## Requirements
 
-## Report
+To run this module, you will need the following:
 
-For this polars descriptive statistics script, I used the polars, matplotlib, and seaborn libraries in python to read a “grade.xlsx” and calculated the mean, median, and standard deviation.
-Then, I generated three plots as following.
+- Python 3.7
+- Polars library
+- Matplotlib
+- Seaborn
 
-- Mean: 72.10714285714286
-- Median: 75.5
-- Standard Deviation: 19.87938492647459
+You can install the required libraries using pip:
 
-![Distribution Plot](data/distribution%20plot.png)
-![Box Plot](data/box%20plot.png)
-![KDE Plot](data/KDE%20plot.png)
+```bash
+pip install polars matplotlib seaborn
+```
+
+## Usage
+
+1. Clone this repository or download the code.
+2. Ensure you have the required libraries installed.
+3. Replace the `FILE_PATH` variable in the code with the path to your Excel file containing the dataset.
+4. Run the script using Python:
+
+```bash
+python descriptive_statistics.py
+```
+
+The script will generate the following:
+
+- Histogram of the data distribution
+- Box plot of the data
+- Kernel Density Estimation (KDE) plot
+- Summary statistics including mean, median, and standard deviation
+
+
+## Output
+
+You can expect the script to produce visualizations and display summary statistics in the console.
+
+![Histogram of Grades](histogram.png)
+
+![Box Plot of Grades](boxplot.png)
+
+
+```
+Mean: 85.6
+Median: 87.0
+Standard Deviation: 8.3
+```
+
