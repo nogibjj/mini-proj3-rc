@@ -1,5 +1,5 @@
 
-# Polars Descriptive Statistics Analysis - week3
+# Polars Descriptive Statistics Analysis - week3 - rc381
 
 This Python module demonstrates the use of Polars for descriptive statistics analysis. The module reads a dataset from an Excel file, calculates summary statistics such as mean, median, and standard deviation, and visualizes the data distribution.
 
@@ -15,7 +15,7 @@ To run this module, you will need the following:
 You can install the required libraries using pip:
 
 ```bash
-pip install polars matplotlib seaborn
+pip3 install polars matplotlib seaborn
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ pip install polars matplotlib seaborn
 4. Run the script using Python:
 
 ```bash
-python descriptive_statistics.py
+python3 descriptive_statistics.py
 ```
 
 The script will generate the following:
